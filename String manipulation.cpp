@@ -257,7 +257,7 @@ string reverseString(string str) {
         str[start] = str[end];
         str[end] = temp;
 
-        start++;
+        
         end--;
     }
     return str;
