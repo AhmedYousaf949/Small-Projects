@@ -48,24 +48,20 @@ To run any of these programs locally, follow the steps below:
 Clone this repository to your local machine:
 
 bash
-Copy
-Edit
+
 git clone https://github.com/AhmedYousaf949/String-manipulation.git
 Navigate to the directory:
 
 bash
-Copy
-Edit
+
 cd String-manipulation
 Compile the C++ program (for example, string_reversal.cpp):
 
 bash
-Copy
-Edit
+
 g++ string_reversal.cpp -o string_reversal
 Run the program:
 
 bash
-Copy
-Edit
+
 ./string_reversal
