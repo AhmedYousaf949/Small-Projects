@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void swap(int *a, int *b){
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+int main()
+{
+    int num1, num2;
+    cout << "Enter two number for swaping: ";
+    cin >> num1;
+    cin >> num2;
+    int *num1adress = &num1;
+    int *num2adress = &num2;
+    cout << *num1adress << endl;
+    cout << *num2adress << endl;
+    swap(*num1adress, *num2adress);
+    cout << *num1adress << endl;
+    cout << *num2adress << endl;
+    return 0;
+}

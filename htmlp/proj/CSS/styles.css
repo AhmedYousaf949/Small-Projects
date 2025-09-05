@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(13, 59, 59, 0.719);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+h1:hover {
+    color: rgb(211, 14, 14);
+    text-shadow: brown 2px 2px 5px;
+    transition: 1s ease-in-out;
+}
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+p:hover {
+    color: rgb(5, 189, 134);
+    text-shadow: aqua 2px 2px 5px;
+    transition: 1s ease-in-out;
+}
+.card {
+    background-color: rgb(38, 59, 75);
+    height: 600px;
+    width: 360px;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    padding: 10px;
+    transition: 1s ease-in-out;
+}
+.card:hover {
+
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+    box-shadow: aquamarine 0px 0px 20px;
+}
