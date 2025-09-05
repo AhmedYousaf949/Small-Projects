@@ -1,67 +1,46 @@
-String Manipulation
-This repository contains various C++ programs demonstrating different string manipulation techniques. These programs showcase the use of string functions, algorithms, and methods to perform common and advanced string operations.
+# 🚀 C++ Practice Repository
 
-Table of Contents
-Introduction
+This repository contains my practice programs in **C++** along with some small HTML projects.  
+It’s mainly a collection of exercises that cover **arrays, recursion, pointers, OOP, data structures, and string manipulation**.
 
-Programs
+---
 
-Usage
+## 👤 Author
+- **Name:** Ahmed Yousaf  
+- **GitHub:** [AhmedYousaf949](https://github.com/AhmedYousaf949)
 
-License
+---
 
-Introduction
-In this repository, you’ll find various C++ programs focused on manipulating strings. The main goal of these programs is to help in understanding basic and advanced string operations such as:
+## 📂 Repository Contents
 
-String reversal
+- **C++ Programs**
+  - `2d arrray.cpp` → Working with 2D arrays
+  - `Link List.cpp` → Linked list implementation
+  - `Recursion.cpp` → Recursive functions
+  - `String manipulation.cpp` → Basic string operations
+  - `array plus 1.cpp` → Array increment example
+  - `cross.cpp`, `fann.cpp`, `password.cpp` → Misc practice
+  - `oop prac 1.cpp` → Object-oriented programming practice
+  - `pointers prac.cpp`, `swap.cpp` → Pointer concepts
+  - `prac1.cpp` … `prac6.cpp` → Series of practice problems
+  - `Untitled-1.cpp` → Misc code experiment
 
-Finding substrings
+- **Executables (.exe)**  
+  Precompiled versions of most C++ files.
 
-String searching and matching
+- **Other Files**
+  - `htmlp/proj` and `shgs.html` → HTML practice files
+  - `Document.rtf` → Notes/documentation
+  - `swap pointers.txt` → Pointer swap explanation
+  - `.vscode/` → VS Code configuration
+  - `LICENSE` → MIT License
+  - `README.md` → This file
 
-String concatenation
+---
 
-Case conversion (uppercase/lowercase)
+## ⚙️ How to Compile & Run
 
-Palindrome checks
-
-And more!
-
-Programs
-Here is a list of some of the programs available in this repository:
-
-String Reversal: A program to reverse a given string.
-
-Palindrome Check: Check whether a string is a palindrome or not.
-
-Substring Search: Search for a substring within a string.
-
-Case Conversion: Convert the case of a string from lowercase to uppercase or vice versa.
-
-String Concatenation: Combine two or more strings together.
-
-Feel free to explore each program and modify them to suit your needs.
-
-Usage
-To run any of these programs locally, follow the steps below:
-
-Clone this repository to your local machine:
-
-bash
-
-git clone https://github.com/AhmedYousaf949/String-manipulation.git
-Navigate to the directory:
-
-bash
-
-cd String-manipulation
-Compile the C++ program (for example, string_reversal.cpp):
-
-bash
-
-g++ string_reversal.cpp -o string_reversal
-Run the program:
-
-bash
-
-./string_reversal
+### Using **MSVC (cl.exe)**
+```sh
+cl filename.cpp
+filename.exe
